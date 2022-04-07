@@ -1,0 +1,34 @@
+*{ background-color: #000000;
+}
+
+*:not(h1){
+color: #FFFFFF;
+}
+
+*:not(h1, .refTitle, .refSample){
+font-size: 2vw
+}
+
+h1 { 
+font-style: bold;
+color: #86AADF;
+font-size: 4vw;
+}
+
+.refTitle, .refSample { font-size: 0.2vw;
+text-align: justify;
+text-justify: inter-word;
+}
+
+img {
+width: 60%;
+border-radius: 1vw;
+margin-bottom: 2vw;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+table{ 
+margin-top: 3vw;
+}
